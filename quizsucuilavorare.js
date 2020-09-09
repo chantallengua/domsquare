@@ -153,6 +153,9 @@ function loadNextQuestion () {
     if(currentQuestion == totalQuestions) {
 	container.style.display = 'none'; 
 
+	//const totalscore = 95;
+	//const conteggio = "4";
+	
 
 	if (totalScore < 90) {
 	return;
@@ -164,19 +167,16 @@ function loadNextQuestion () {
 		 <div class="row h-100 align-items-center justify-content-center text-center quiz-container">
 			<div class="col-lg-10 align-self-end">
 		 
-				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are the "Busy Bee" student!</h2>
+				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are a potato</h2>
 				<hr class="divider my-4" />
 			</div>
 		 
 			<div class="summary col-lg-8 align-self-baseline mb-4">
-				<p text-white-75 font-weight-light>You have a positive attitude and you like to explore the many different opportunities that student life has to offer. You always make sure that you have several things going on and are not afraid to take on a few extracurriculars. You like to dream big and are determined to be involved in as many things as possible. Your schedule might be packed, but at least you are never bored!
-				</p>
-				<p text-white-75 font-weight-light>
-				The perfect match for you is the <b>Academy Building</b>!
-				</p>
-				<p text-white-75 font-weight-light>
-				<img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" style="height:300px" alt="" />
-				</p>
+				<p text-white-75 font-weight-light>Paragraph</p>
+				<p text-white-75 font-weight-light>Your score: ${totalScore}</p>
+				<p text-white-75 font-weight-light>Conteggio: ${conteggio}</p>
+				<p text-white-75 font-weight-light>Paragraph</p>
+				<p text-white-75 font-weight-light>Paragraph</p>
 			</div>
 			<div>
 			<button class="restart btn btn-primary btn-xl js-scroll-trigger mr-5">Restart Quiz</button>
@@ -191,6 +191,39 @@ function loadNextQuestion () {
 	}
     generateQuestions(currentQuestion);
 }
+
+
+
+var letters = ["A", "B", "C", "A", "A", "B", "B", "B", "D", "D"];
+
+var countA = 0;
+for(var i = 0; i < letters.length; ++i){
+    if(letters[i] == "A")
+        countA++;
+}
+
+var countB = 0;
+for(var i = 0; i < letters.length; ++i){
+    if(letters[i] == "B")
+        countB++;
+}
+
+var countC = 0;
+for(var i = 0; i < letters.length; ++i){
+    if(letters[i] == "C")
+        countC++;
+}
+
+var countD = 0;
+for(var i = 0; i < letters.length; ++i){
+    if(letters[i] == "D")
+        countD++;
+}
+
+document.write(countA);
+document.write(countB);
+document.write(countC);
+document.write(countD);
 
 
 
