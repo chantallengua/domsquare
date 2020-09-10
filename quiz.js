@@ -23,9 +23,20 @@ const questions = [
 	"answer4": "That I’ll break a mirror and have bad luck for seven years.",
 	"answer4Total": "D"
   },
+    {
+    "question": "Which famous person would you like to be able to talk to for a day?",
+    "answer1": "Albert Einstein, one of the most influential scientists of the 20th.",
+    "answer1Total": "A",
+    "answer2": "Anna Maria van Schurman, the first female student at UU.",
+    "answer2Total": "E",
+    "answer3": "Confucius, to understand his teachings of spiritual fulfillment and social harmony.",
+    "answer3Total": "H",
+	"answer4": "Greta Thunberg, the environmental activist who inspired millions.",
+	"answer4Total": "G"
+  },
   {
     "question": "What frustrates you the most?",
-    "answer1": "When I cannot find the answer to a difficult question.",
+    "answer1": "When I cannot make use of an opportunity presented to me.",
     "answer1Total": "A",
     "answer2": "When people just throw their waste on the ground.",
     "answer2Total": "G",
@@ -34,28 +45,40 @@ const questions = [
 	"answer4": "I never really get frustrated, I am always relaxed.",
 	"answer4Total": "B"
   },
-  {
-    "question": "According to you, what is most important in life?",
-    "answer1": "Inner peace.",
-    "answer1Total": "C",
-    "answer2": "Social equality and justice.",
-    "answer2Total": "E",
-    "answer3": "Living life to the fullest every day.",
-    "answer3Total": "F",
-	"answer4": "Avoiding misfortune.",
+
+    {
+    "question": "Which kind of architecture/design fascinates you the most?",
+    "answer1": "The eye-catching interior design of bars and clubs.",
+    "answer1Total": "F",
+    "answer2": "Orderly fascinating streets that don't have names, but numbers.",
+    "answer2Total": "H",
+    "answer3": "The peaceful arrangement of big, relaxing botanical gardens.",
+    "answer3Total": "B",
+	"answer4": "It’s interesting how Chinese buildings often lack a 4th floor.",
 	"answer4Total": "D"
   },
   {
     "question": "What’s a bad habit you have?",
-    "answer1": "Procrastinating on everything.",
+    "answer1": "Procrastinating on everything until it's (really) late.",
     "answer1Total": "B",
-    "answer2": "Forgetting what I need to do.",
+    "answer2": "Not being able to oversee my responsibilities.",
     "answer2Total": "H",
     "answer3": "Taking too long to do things because I have to do it in a specific way.",
     "answer3Total": "D",
 	"answer4": "Trying to do too much at the same time.",
 	"answer4Total": "A"
   },
+  {
+    "question": "If you had a time machine, where in time would you go?",
+    "answer1": "To the 4th century BC, to talk to the Greek philosophers about spirituality",
+    "answer1Total": "C",
+    "answer2": "To the 19th century, to support the first-wave feminists.",
+    "answer2Total": "E",
+    "answer3": "Yesterday, I missed an event that I really wanted to attend.",
+    "answer3Total": "A",
+	"answer4": "Somewhere in the future, because life must have become even more fun.",
+	"answer4Total": "F"
+  },  
   {
     "question": "What kind of people do you admire most?",
     "answer1": "People who are able to achieve inner peace.",
@@ -71,12 +94,34 @@ const questions = [
     "question": "What would you never do?",
     "answer1": "Blame people for being late or not knowing their way around.",
     "answer1Total": "H",
-    "answer2": "Walk under a ladder.",
+    "answer2": "Walk under a very tall ladder leaning against a wall.",
     "answer2Total": "D",
-    "answer3": "Throw perfectly good food in the trash can.",
+    "answer3": "Throw perfectly good food in the trash can (I hate food waste).",
     "answer3Total": "G",
 	"answer4": "Make a fuss over something minor.",
 	"answer4Total": "B"
+  },
+    {
+    "question": "If you could choose a superpower, what would it be?",
+    "answer1": "Being able to regulate the earth's temperature.",
+    "answer1Total": "G",
+    "answer2": "Always knowing exactly where everything and everyone is.",
+    "answer2Total": "H",
+    "answer3": "Being able to control the emotions of the people around me and calm them down.",
+    "answer3Total": "B",
+	"answer4": "Being extremely lucky.",
+	"answer4Total": "D"
+  },
+    {
+    "question": "What compliment would others give you?",
+    "answer1": "That I’m a hard worker and I know exactly how to carry out my assignments.",
+    "answer1Total": "A",
+    "answer2": "That I’m inspiring, determined and charismatic.",
+    "answer2Total": "E",
+    "answer3": "That I can chug a liter of beer the fastest.",
+    "answer3Total": "F",
+	"answer4": "That I’m devoted and loyal to the people that matter in my life.",
+	"answer4Total": "C"
   }
 ]
 
@@ -160,28 +205,35 @@ function loadNextQuestion () {
 	
 	else {
         result.innerHTML =
-         `<div class="container h-100">
+         `         <div class="container h-100 ">
 		 <div class="row h-100 align-items-center justify-content-center text-center quiz-container">
-			<div class="col-lg-10 align-self-end">
+			<div class="col-lg-6 align-self-end">
 		 
 				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are the "Busy Bee" student!</h2>
 				<hr class="divider my-4" />
-			</div>
 		 
-			<div class="summary col-lg-8 align-self-baseline mb-4">
-				<p text-white-75 font-weight-light>You have a positive attitude and you like to explore the many different opportunities that student life has to offer. You always make sure that you have several things going on and are not afraid to take on a few extracurriculars. You like to dream big and are determined to be involved in as many things as possible. Your schedule might be packed, but at least you are never bored!
-				</p>
-				<p text-white-75 font-weight-light>
-				The perfect match for you is the <b>Academy Building</b>!
-				</p>
-				<p text-white-75 font-weight-light>
-				<img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" style="height:300px" alt="" />
-				</p>
+				<div class="summary align-self-baseline mb-4">
+					<p class="text-white font-weight-light">You have a positive attitude and you like to explore the many different opportunities that student life has to offer. You always make sure that you have several things going on and are not afraid to take on a few extracurriculars. You like to dream big and are determined to be involved in as many things as possible. Your schedule might be packed, but at least you are never bored!
+					</p>
+				</div>
 			</div>
-			<div>
+				
+			<div class="col-lg-6 align-self-end">
+				<p class="text-white  font-weight-light">
+				The perfect match for you is the <a href="all.html#id1" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Academy Building</b> </mark></a>!
+				</p>
+			
+				<p class="text-white font-weight-light">
+				<a href="all.html#id1">
+					<img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" style="height:300px" alt="" />
+				</a>
+				</p>
+			</div>       
+		</div>
+					<div class="mt-4">
 			<button class="restart btn btn-primary btn-xl js-scroll-trigger mr-5">Restart Quiz</button>
-			<button class="btn btn-primary btn-xl js-scroll-trigger> <a href="https://www.google.nl/">Read more</a></button>
-			</div>        
+			
+			</div> 
 		</div>
          `;
         return;
