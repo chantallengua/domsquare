@@ -23,17 +23,6 @@ const questions = [
 	"answer4": "That I’ll break a mirror and have bad luck for seven years.",
 	"answer4Total": "D"
   },
-    {
-    "question": "Which famous person would you like to be able to talk to for a day?",
-    "answer1": "Albert Einstein, one of the most influential scientists of the 20th.",
-    "answer1Total": "A",
-    "answer2": "Anna Maria van Schurman, the first female student at UU.",
-    "answer2Total": "E",
-    "answer3": "Confucius, to understand his teachings of spiritual fulfillment and social harmony.",
-    "answer3Total": "H",
-	"answer4": "Greta Thunberg, the environmental activist who inspired millions.",
-	"answer4Total": "G"
-  },
   {
     "question": "What frustrates you the most?",
     "answer1": "When I cannot make use of an opportunity presented to me.",
@@ -46,6 +35,29 @@ const questions = [
 	"answer4Total": "B"
   },
 
+    {
+    "question": "Which famous person would you like to be able to talk to for a day?",
+    "answer1": "Albert Einstein, one of the most influential scientists of the 20th.",
+    "answer1Total": "A",
+    "answer2": "Anna Maria van Schurman, the first female student at UU.",
+    "answer2Total": "E",
+    "answer3": "Confucius, to understand his teachings of spiritual fulfillment and social harmony.",
+    "answer3Total": "H",
+	"answer4": "Greta Thunberg, the environmental activist who inspired millions.",
+	"answer4Total": "G"
+  },
+
+  {
+    "question": "According to you, what is most important in life?",
+    "answer1": "Feeling connected, grounded and at peace.",
+    "answer1Total": "C",
+    "answer2": "Social equality and justice.",
+    "answer2Total": "E",
+    "answer3": "Living life to the fullest every day.",
+    "answer3Total": "F",
+	"answer4": "Avoiding misfortune.",
+	"answer4Total": "D"
+  },
     {
     "question": "Which kind of architecture/design fascinates you the most?",
     "answer1": "The eye-catching interior design of bars and clubs.",
@@ -196,16 +208,72 @@ function loadNextQuestion () {
 	
     //If the quiz is finished then we hide the questions container and show the results 
     if(currentQuestion == totalQuestions) {
+		console.log(totalScore);
+		
+		var countA = 0;
+for(var i = 0; i < totalScore.length; ++i){
+    if(totalScore[i] == "A")
+        countA++;
+}
+
+var countB = 0;
+for(var i = 0; i < totalScore.length; ++i){
+    if(totalScore[i] == "B")
+        countB++;
+}
+
+var countC = 0;
+for(var i = 0; i < totalScore.length; ++i){
+    if(totalScore[i] == "C")
+        countC++;
+}
+
+var countD = 0;
+for(var i = 0; i < totalScore.length; ++i){
+    if(totalScore[i] == "D")
+        countD++;
+}
+
+var countE = 0;
+for(var i = 0; i < totalScore.length; ++i){
+    if(totalScore[i] == "E")
+        countE++;
+}
+
+var countF = 0;
+for(var i = 0; i < totalScore.length; ++i){
+    if(totalScore[i] == "F")
+        countF++;
+}
+
+var countG = 0;
+for(var i = 0; i < totalScore.length; ++i){
+    if(totalScore[i] == "G")
+        countG++;
+}
+
+var countH = 0;
+for(var i = 0; i < totalScore.length; ++i){
+    if(totalScore[i] == "H")
+        countH++;
+}
+
+
+		console.log("countA= " + countA);
+		console.log("countB= " + countB);
+		console.log("countC= " + countC);
+		console.log("countD= " + countD);
+		console.log("countE= " + countE);
+		console.log("countF= " + countF);
+		console.log("countG= " + countG);
+		console.log("countH= " + countH);		
+		
 	container.style.display = 'none'; 
 
 
-	if (totalScore < 90) {
-	return;
-	}
-	
-	else {
-        result.innerHTML =
-         `         <div class="container h-100 ">
+	if ((countA >= countB) && (countA >= countC) && (countA >= countD) && (countA >= countE) && (countA >= countF) && (countA >= countG) && (countA >= countH)) {
+		result.innerHTML = 
+		`         <div class="container h-100 ">
 		 <div class="row h-100 align-items-center justify-content-center text-center quiz-container">
 			<div class="col-lg-6 align-self-end">
 		 
@@ -235,6 +303,105 @@ function loadNextQuestion () {
 			
 			</div> 
 		</div>
+         `;
+		
+	return;
+	}
+	
+	else if ((countB >= countA) && (countB >= countC) && (countB >= countD) && (countB >= countE) && (countB >= countF) && (countB >= countG) && (countB >= countH)) {
+		result.innerHTML = 
+		`         <div class="container h-100 ">
+		 <div class="row h-100 align-items-center justify-content-center text-center quiz-container">
+			<div class="col-lg-6 align-self-end">
+		 
+				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are the "Relaxed" student!</h2>
+				<hr class="divider my-4" />
+		 
+				<div class="summary align-self-baseline mb-4">
+					<p class="text-white font-weight-light">You like to refer to yourself as an "enjoyer of life" or a "bon vivant" if you're feeling fancy. When you entered your life as a student in Utrecht, you came to the discovery that you are happiest when you just see what the day brings you. There is always time to study later!
+					</p>
+				</div>
+			</div>
+				
+			<div class="col-lg-6 align-self-end">
+				<p class="text-white  font-weight-light">
+				The perfect match for you is the <a href="all.html#id2" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Pandhof</b> </mark></a>!
+				</p>
+			
+				<p class="text-white font-weight-light">
+				<a href="all.html#id2">
+					<img class="img-fluid" src="assets/img/portfolio/thumbnails/9.jpg" style="height:300px" alt="" />
+				</a>
+				</p>
+			</div>       
+		</div>
+					<div class="mt-4">
+			<button class="restart btn btn-primary btn-xl js-scroll-trigger mr-5">Restart Quiz</button>
+			
+			</div> 
+		</div>
+         `;
+		
+	return;
+	}
+	
+	else if ((countC >= countA) && (countC >= countB) && (countC >= countD) && (countC >= countE) && (countC >= countF) && (countC >= countG) && (countC >= countH)) {
+		result.innerHTML = 
+		`
+		<div> C - spiritual student </div>
+		`;
+		
+	return;
+	}	
+	
+	else if ((countD >= countA) && (countD >= countB) && (countD >= countC) && (countD >= countE) && (countD >= countF) && (countD >= countG) && (countD >= countH)) {
+		result.innerHTML = 
+		`
+		<div> D - superstitious student </div>
+		`;
+		
+	return;
+	}
+
+	else if ((countE >= countA) && (countE >= countB) && (countE >= countC) && (countE >= countD) && (countE >= countF) && (countE >= countG) && (countE >= countH)) {
+		result.innerHTML = 
+		`
+		<div> E - pioneering student </div>
+		`;
+		
+	return;
+	}
+
+	else if ((countF >= countA) && (countF >= countB) && (countF >= countD) && (countF >= countE) && (countF >= countC) && (countF >= countG) && (countF >= countH)) {
+		result.innerHTML = 
+		`
+		<div> F - party student </div>
+		`;
+		
+	return;
+	}	
+
+	else if ((countG >= countA) && (countG >= countB) && (countG >= countD) && (countG >= countE) && (countG >= countC) && (countG >= countF) && (countG >= countH)) {
+		result.innerHTML = 
+		`
+		<div> G - sustainable student </div>
+		`;
+		
+	return;
+	}	
+
+	else if ((countH >= countA) && (countH >= countB) && (countH >= countD) && (countH >= countE) && (countH >= countC) && (countH >= countF) && (countH >= countG)) {
+		result.innerHTML = 
+		`
+		<div> H - disoriented student </div>
+		`;
+		
+	return;
+	}	
+			
+	else {
+        result.innerHTML =
+         `
          `;
         return;
     } 
