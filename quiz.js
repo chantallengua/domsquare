@@ -117,8 +117,8 @@ const questions = [
     "question": "If you could choose a superpower, what would it be?",
     "answer1": "Being able to regulate the earth's temperature.",
     "answer1Total": "G",
-    "answer2": "Always knowing exactly where everything and everyone is.",
-    "answer2Total": "H",
+    "answer2": "Having the ability to answer a question about the meaning of life.",
+    "answer2Total": "C",
     "answer3": "Being able to control the emotions of the people around me and calm them down.",
     "answer3Total": "B",
 	"answer4": "Being extremely lucky.",
@@ -288,7 +288,7 @@ for(var i = 0; i < totalScore.length; ++i){
 				
 			<div class="col-lg-6 align-self-end">
 				<p class="text-white  font-weight-light">
-				The perfect match for you is the <a href="all.html#id1" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Academy Building</b> </mark></a>!
+				The perfect match for you is the <a href="all.html#id1" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Academy Building</b> </mark></a>, that, together with the attached chapter house from the 15th century, is the beating heart of the university.
 				</p>
 			
 				<p class="text-white font-weight-light">
@@ -314,18 +314,21 @@ for(var i = 0; i < totalScore.length; ++i){
 		 <div class="row h-100 align-items-center justify-content-center text-center quiz-container">
 			<div class="col-lg-6 align-self-end">
 		 
-				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are the "Relaxed" student!</h2>
+				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are the "relaxed" student!</h2>
 				<hr class="divider my-4" />
 		 
 				<div class="summary align-self-baseline mb-4">
 					<p class="text-white font-weight-light">You like to refer to yourself as an "enjoyer of life" or a "bon vivant" if you're feeling fancy. When you entered your life as a student in Utrecht, you came to the discovery that you are happiest when you just see what the day brings you. There is always time to study later!
+					</p>
+					<p class="text-white font-weight-light">You like to spend time outside - either with friends or by yourself - and take in your surroundings. You would love a place where you could find shade during the hot days of summer, some sun in the spring and fall, and some cosy shelter in the winter. 
 					</p>
 				</div>
 			</div>
 				
 			<div class="col-lg-6 align-self-end">
 				<p class="text-white  font-weight-light">
-				The perfect match for you is the <a href="all.html#id2" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Pandhof</b> </mark></a>!
+				Your match is the <a href="all.html#id2" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Pandhof</b> </mark></a>, that strikes the perfect balance between being secluded from the busy outside world and at having different people coming in and out all day, who you like to observe..
+				
 				</p>
 			
 				<p class="text-white font-weight-light">
@@ -347,54 +350,249 @@ for(var i = 0; i < totalScore.length; ++i){
 	
 	else if ((countC >= countA) && (countC >= countB) && (countC >= countD) && (countC >= countE) && (countC >= countF) && (countC >= countG) && (countC >= countH)) {
 		result.innerHTML = 
-		`
-		<div> C - spiritual student </div>
-		`;
+		`         <div class="container h-100 ">
+		 <div class="row h-100 align-items-center justify-content-center text-center quiz-container">
+			<div class="col-lg-6 align-self-end">
+		 
+				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are the "spiritual" student!</h2>
+				<hr class="divider my-4" />
+		 
+				<div class="summary align-self-baseline mb-4">
+					<p class="text-white font-weight-light">You like to build little moments into your day that allow you to reconnect and re-evaluate. Taking a step back from daily life every once in a while strengthens you and prepares you to take on all the things the universe throws at you.
+					</p>
+					<p class="text-white font-weight-light">
+					In the busy world that you live in, you find peace and comfort in places where people come together to share their faith. 
+					</p>
+				</div>
+			</div>
+				
+			<div class="col-lg-6 align-self-end">
+				<p class="text-white  font-weight-light">
+				Your perfect match is the <a href="all.html#id3" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Dom Church</b> </mark></a>, to unwind and connect with the past generations of people who have come here to recharge. 
+				</p>
+			
+				<p class="text-white font-weight-light">
+				<a href="all.html#id3">
+					<img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" style="height:300px" alt="" />
+				</a>
+				</p>
+			</div>       
+		</div>
+					<div class="mt-4">
+			<button class="restart btn btn-primary btn-xl js-scroll-trigger mr-5">Restart Quiz</button>
+			
+			</div> 
+		</div>
+         `;
 		
 	return;
 	}	
 	
 	else if ((countD >= countA) && (countD >= countB) && (countD >= countC) && (countD >= countE) && (countD >= countF) && (countD >= countG) && (countD >= countH)) {
 		result.innerHTML = 
-		`
-		<div> D - superstitious student </div>
-		`;
+		`         <div class="container h-100 ">
+		 <div class="row h-100 align-items-center justify-content-center text-center quiz-container">
+			<div class="col-lg-6 align-self-end">
+		 
+				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are the "superstitious" student!</h2>
+				<hr class="divider my-4" />
+		 
+				<div class="summary align-self-baseline mb-4">
+					<p class="text-white font-weight-light">
+					Your personal motto is "better safe than sorry!". The first thing you do when you get up is checking what the stars have to say. Does your horoscope not anticipate a great day today? Maybe you'll roll over once more and have a little you-time.
+					</p>
+					<p class="text-white font-weight-light">
+					You are also always the first to know the talk of the town, and are especially weary of potential misfortune. Despite what others might tell you, you are stubborn and stick to your ways. Because you will see, that ONE time you let yourself go, disaster will strike…
+					</p>
+				</div>
+			</div>
+				
+			<div class="col-lg-6 align-self-end">
+				<p class="text-white  font-weight-light">
+				Your perfect match is the <a href="all.html#id4" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Dom gate</b> </mark></a>: legend has it that once a person committed suicide by jumping from the top of the tower, but unfortunately landed on a student coming out from under the gate. 
+				</p>
+			
+				<p class="text-white font-weight-light">
+				<a href="all.html#id4">
+					<img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" style="height:300px" alt="" />
+				</a>
+				</p>
+			</div>       
+		</div>
+					<div class="mt-4">
+			<button class="restart btn btn-primary btn-xl js-scroll-trigger mr-5">Restart Quiz</button>
+			
+			</div> 
+		</div>
+         `;
 		
 	return;
 	}
 
 	else if ((countE >= countA) && (countE >= countB) && (countE >= countC) && (countE >= countD) && (countE >= countF) && (countE >= countG) && (countE >= countH)) {
 		result.innerHTML = 
-		`
-		<div> E - pioneering student </div>
-		`;
+		`         <div class="container h-100 ">
+		 <div class="row h-100 align-items-center justify-content-center text-center quiz-container">
+			<div class="col-lg-6 align-self-end">
+		 
+				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are the "pioneering" student!</h2>
+				<hr class="divider my-4" />
+		 
+				<div class="summary align-self-baseline mb-4">
+					<p class="text-white font-weight-light">
+					As a young intellectual, you see it as your duty to improve the world and fight for those without a voice. You don't like it when people tell you what to do and what not to do, or that you are "too liberal". You can make up your own mind! You are persuasive and charismatic, and determined to devote all your energy to your cause.
+					</p>
+					<p class="text-white font-weight-light">
+					You may feel personally inspired by the story of the first female university student in the Netherlands, Anna Maria van Schurman (1607-1678) and you may strive to follow in her footsteps.
+					</p>
+				</div>
+			</div>
+				
+			<div class="col-lg-6 align-self-end">
+				<p class="text-white  font-weight-light">
+				Therefore, your perfect match is the <a href="all.html#id5" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>old house of Anna Maria van Schurman</b> </mark></a>(1607-1678), the student who, by participating in the intellectual community of the seventeenth century, paved the way for many women and members of other oppressed groups to do the same. 
+				</p>
+			
+				<p class="text-white font-weight-light">
+				<a href="all.html#id5">
+					<img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" style="height:300px" alt="" />
+				</a>
+				</p>
+			</div>       
+		</div>
+					<div class="mt-4">
+			<button class="restart btn btn-primary btn-xl js-scroll-trigger mr-5">Restart Quiz</button>
+			
+			</div> 
+		</div>
+         `;
 		
 	return;
 	}
 
 	else if ((countF >= countA) && (countF >= countB) && (countF >= countD) && (countF >= countE) && (countF >= countC) && (countF >= countG) && (countF >= countH)) {
 		result.innerHTML = 
-		`
-		<div> F - party student </div>
-		`;
+		`         <div class="container h-100 ">
+		 <div class="row h-100 align-items-center justify-content-center text-center quiz-container">
+			<div class="col-lg-6 align-self-end">
+		 
+				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are the "life of the party" student!</h2>
+				<hr class="divider my-4" />
+		 
+				<div class="summary align-self-baseline mb-4">
+					<p class="text-white font-weight-light">
+					You are a true party animal! You enjoy being part of a student association and you never say no to a drink with your friends. Your academics are usually not your main priority, especially in the morning, after you had that 'only one beer' a couple too many times the night before.
+					</p>
+					<p class="text-white font-weight-light">
+					You can mainly be found in the city centre around the end of the day - otherwise known as "borreltime"! When you visit Dom Square during your nocturnal adventures, you and your friends like to bring homage to the place where the social life of the Utrechtsche Studenten Corps ("Utrecht Student Corpus") started, all the way back in 1816.
+					</p>
+				</div>
+			</div>
+				
+			<div class="col-lg-6 align-self-end">
+				<p class="text-white  font-weight-light">
+				Therefore, your perfect match is the <a href="all.html#id6" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>"Utrecht Student Corpus" building</b> </mark></a>(1607-1678); even though the current USC consists mostly of party animals like yourself, you also like to remember that it started out as an association for all students all the way back in 1636.
+				</p>
+			
+				<p class="text-white font-weight-light">
+				<a href="all.html#id6">
+					<img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" style="height:300px" alt="" />
+				</a>
+				</p>
+			</div>       
+		</div>
+					<div class="mt-4">
+			<button class="restart btn btn-primary btn-xl js-scroll-trigger mr-5">Restart Quiz</button>
+			
+			</div> 
+		</div>
+         `;
 		
 	return;
 	}	
 
 	else if ((countG >= countA) && (countG >= countB) && (countG >= countD) && (countG >= countE) && (countG >= countC) && (countG >= countF) && (countG >= countH)) {
 		result.innerHTML = 
-		`
-		<div> G - sustainable student </div>
-		`;
+		`         <div class="container h-100 ">
+		 <div class="row h-100 align-items-center justify-content-center text-center quiz-container">
+			<div class="col-lg-6 align-self-end">
+		 
+				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are the "sustainable" student!</h2>
+				<hr class="divider my-4" />
+		 
+				<div class="summary align-self-baseline mb-4">
+					<p class="text-white font-weight-light">
+					You are well aware of what humanity is doing to our planet and its ecosystems, and you realise the time to take action is now. You love to take part in the many student initiatives that promote sustainable living and consumption, and you spend a lot of time and energy to educate the people around you. Even though it is hard work that you do, the juice is worth the squeeze: your efforts help to bring people together and build a community that works towards a better future.
+					</p>
+					
+					<p class="text-white font-weight-light">
+					 You feel like you contribute to a sustainable environment, and you hope to inspire others to do so as well.
+					</p>
+
+				</div>
+			</div>
+				
+			<div class="col-lg-6 align-self-end">
+				<p class="text-white  font-weight-light">
+				Your perfect match is <a href="all.html#id7" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Circle That</b> </mark></a>a student-led collective that facilitates food rescue markets, second-hand clothing sales, sustainable living workshops and much more.
+				</p>
+			
+				<p class="text-white font-weight-light">
+				<a href="all.html#id7">
+					<img class="img-fluid" src="assets/img/portfolio/thumbnails/7.jpg" style="height:300px" alt="" />
+				</a>
+				</p>
+			</div>       
+		</div>
+					<div class="mt-4">
+			<button class="restart btn btn-primary btn-xl js-scroll-trigger mr-5">Restart Quiz</button>
+			
+			</div> 
+		</div>
+         `;
 		
 	return;
 	}	
 
 	else if ((countH >= countA) && (countH >= countB) && (countH >= countD) && (countH >= countE) && (countH >= countC) && (countH >= countF) && (countH >= countG)) {
 		result.innerHTML = 
-		`
-		<div> H - disoriented student </div>
-		`;
+		`         <div class="container h-100 ">
+		 <div class="row h-100 align-items-center justify-content-center text-center quiz-container">
+			<div class="col-lg-6 align-self-end">
+		 
+				<h2 class="final-score text-uppercase text-white font-weight-bold title">You are the "disoriented" student!</h2>
+				<hr class="divider my-4" />
+		 
+				<div class="summary align-self-baseline mb-4">
+					<p class="text-white font-weight-light">
+					For now, you are a bit of a mess, and you are well aware of it. New to this foreign city and student life, you usually don't immediately succeed in what you plan to do. You have yet to learn your way around town, as well as how to structure your new life as a student in Utrecht.
+					</p>
+					
+					<p class="text-white font-weight-light">
+					 Luckily there is always the Dom Tower, for centuries the symbol and epicentre of the city, to look up to from a distance. Not only does its everlasting presence on the Utrecht skyline comfort you, it also helps you navigate through those tiny little streets in the city centre that all look exactly the same to you.
+					</p>
+
+				</div>
+			</div>
+				
+			<div class="col-lg-6 align-self-end">
+				<p class="text-white  font-weight-light">
+				Your perfect match is the one and only <a href="all.html#id8" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Dom Tower</b> </mark></a>, that, in your mind and in those of many other Utrechters, is the focal point of the city, and once the highest building in the Netherlands.
+				</p>
+			
+				<p class="text-white font-weight-light">
+				<a href="all.html#id8">
+					<img class="img-fluid" src="assets/img/portfolio/thumbnails/8.jpg" style="height:300px" alt="" />
+				</a>
+				</p>
+			</div>       
+		</div>
+					<div class="mt-4">
+			<button class="restart btn btn-primary btn-xl js-scroll-trigger mr-5">Restart Quiz</button>
+			
+			</div> 
+		</div>
+         `;
 		
 	return;
 	}	
