@@ -36,7 +36,7 @@ const questions = [
   },
 
     {
-    "question": "Which famous person would you like to be able to talk to for a day?",
+    "question": "Which famous person would you like to <br> be able to talk to for a day?",
     "answer1": "Albert Einstein, one of the most influential scientists of the 20th.",
     "answer1Total": "A",
     "answer2": "Anna Maria van Schurman, the first female student at UU.",
@@ -48,18 +48,18 @@ const questions = [
   },
 
   {
-    "question": "According to you, what is most important in life?",
+    "question": "According to you, what is <br>most important in life?",
     "answer1": "Feeling connected, grounded and at peace.",
     "answer1Total": "C",
-    "answer2": "Social equality and justice.",
+    "answer2": "Social equality, civil rights, freedom of speech and justice.",
     "answer2Total": "E",
-    "answer3": "Living life to the fullest every day.",
+    "answer3": "Living life to the fullest every day (you only live once!).",
     "answer3Total": "F",
-	"answer4": "Avoiding misfortune.",
+	"answer4": "Avoiding unfortunate conditions or events.",
 	"answer4Total": "D"
   },
     {
-    "question": "Which kind of architecture/design fascinates you the most?",
+    "question": "Which kind of architecture/design <br>fascinates you the most?",
     "answer1": "The eye-catching interior design of bars and clubs.",
     "answer1Total": "F",
     "answer2": "Orderly fascinating streets that don't have names, but numbers.",
@@ -70,7 +70,7 @@ const questions = [
 	"answer4Total": "D"
   },
   {
-    "question": "What’s a bad habit you have?",
+    "question": "What’s a bad habit <br>you have?",
     "answer1": "Procrastinating on everything until it's (really) late.",
     "answer1Total": "B",
     "answer2": "Not being able to oversee my responsibilities.",
@@ -81,7 +81,7 @@ const questions = [
 	"answer4Total": "A"
   },
   {
-    "question": "If you had a time machine, where in time would you go?",
+    "question": "If you had a time machine, where <br>in time would you go?",
     "answer1": "To the 4th century BC, to talk to the Greek philosophers about spirituality",
     "answer1Total": "C",
     "answer2": "To the 19th century, to support the first-wave feminists.",
@@ -92,14 +92,14 @@ const questions = [
 	"answer4Total": "F"
   },  
   {
-    "question": "What kind of people do you admire most?",
+    "question": "What kind of people <br>do you admire most?",
     "answer1": "People who are able to achieve inner peace.",
     "answer1Total": "C",
     "answer2": "People who brought revolutionary changes to the world.",
     "answer2Total": "E",
     "answer3": "People who have a social life but don't slack off on academics or sleep.",
     "answer3Total": "F",
-	"answer4": "People who make an effort to stop climate change.",
+	"answer4": "People who make a real effort to stop climate change.",
 	"answer4Total": "G"
   },
   {
@@ -114,7 +114,7 @@ const questions = [
 	"answer4Total": "B"
   },
     {
-    "question": "If you could choose a superpower, what would it be?",
+    "question": "If you could choose a superpower, <br>what would it be?",
     "answer1": "Being able to regulate the earth's temperature.",
     "answer1Total": "G",
     "answer2": "Having the ability to answer a question about the meaning of life.",
@@ -125,7 +125,7 @@ const questions = [
 	"answer4Total": "D"
   },
     {
-    "question": "What compliment would others give you?",
+    "question": "What compliment would <br>others give you?",
     "answer1": "That I’m a hard worker and I know exactly how to carry out my assignments.",
     "answer1Total": "A",
     "answer2": "That I’m inspiring, determined and charismatic.",
@@ -293,7 +293,7 @@ for(var i = 0; i < totalScore.length; ++i){
 			
 				<p class="text-white font-weight-light">
 				<a href="all.html#id1">
-					<img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" style="height:300px" alt="" />
+					<img class="img-fluid shadow-lg rounded" src="assets/img/portfolio/thumbnails/3.jpg" style="height:300px" alt="" />
 				</a>
 				</p>
 			</div>       
@@ -333,7 +333,7 @@ for(var i = 0; i < totalScore.length; ++i){
 			
 				<p class="text-white font-weight-light">
 				<a href="all.html#id2">
-					<img class="img-fluid" src="assets/img/portfolio/thumbnails/9.jpg" style="height:300px" alt="" />
+					<img class="img-fluid shadow-lg rounded" src="assets/img/portfolio/thumbnails/9.jpg" style="height:300px" alt="" />
 				</a>
 				</p>
 			</div>       
@@ -373,7 +373,7 @@ for(var i = 0; i < totalScore.length; ++i){
 			
 				<p class="text-white font-weight-light">
 				<a href="all.html#id3">
-					<img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" style="height:300px" alt="" />
+					<img class="img-fluid shadow-lg rounded" src="assets/img/portfolio/thumbnails/1.jpg" style="height:300px" alt="" />
 				</a>
 				</p>
 			</div>       
@@ -414,7 +414,7 @@ for(var i = 0; i < totalScore.length; ++i){
 			
 				<p class="text-white font-weight-light">
 				<a href="all.html#id4">
-					<img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" style="height:300px" alt="" />
+					<img class="img-fluid shadow-lg rounded" src="assets/img/portfolio/thumbnails/2.jpg" style="height:300px" alt="" />
 				</a>
 				</p>
 			</div>       
@@ -455,7 +455,7 @@ for(var i = 0; i < totalScore.length; ++i){
 			
 				<p class="text-white font-weight-light">
 				<a href="all.html#id5">
-					<img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" style="height:300px" alt="" />
+					<img class="img-fluid shadow-lg rounded" src="assets/img/portfolio/thumbnails/4.jpg" style="height:300px" alt="" />
 				</a>
 				</p>
 			</div>       
@@ -496,7 +496,7 @@ for(var i = 0; i < totalScore.length; ++i){
 			
 				<p class="text-white font-weight-light">
 				<a href="all.html#id6">
-					<img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" style="height:300px" alt="" />
+					<img class="img-fluid shadow-lg rounded" src="assets/img/portfolio/thumbnails/6.jpg" style="height:300px" alt="" />
 				</a>
 				</p>
 			</div>       
@@ -539,7 +539,7 @@ for(var i = 0; i < totalScore.length; ++i){
 			
 				<p class="text-white font-weight-light">
 				<a href="all.html#id7">
-					<img class="img-fluid" src="assets/img/portfolio/thumbnails/7.jpg" style="height:300px" alt="" />
+					<img class="img-fluid shadow-lg rounded" src="assets/img/portfolio/thumbnails/7.jpg" style="height:300px" alt="" />
 				</a>
 				</p>
 			</div>       
@@ -582,7 +582,7 @@ for(var i = 0; i < totalScore.length; ++i){
 			
 				<p class="text-white font-weight-light">
 				<a href="all.html#id8">
-					<img class="img-fluid" src="assets/img/portfolio/thumbnails/8.jpg" style="height:300px" alt="" />
+					<img class="img-fluid shadow-lg rounded" src="assets/img/portfolio/thumbnails/8.jpg" style="height:300px" alt="" />
 				</a>
 				</p>
 			</div>       
