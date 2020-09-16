@@ -281,14 +281,16 @@ for(var i = 0; i < totalScore.length; ++i){
 				<hr class="divider my-4" />
 		 
 				<div class="summary align-self-baseline mb-4">
-					<p class="text-white font-weight-light">You have a positive attitude and you like to explore the many different opportunities that student life has to offer. You always make sure that you have several things going on and are not afraid to take on a few extracurriculars. You like to dream big and are determined to be involved in as many things as possible. Your schedule might be packed, but at least you are never bored!
+					<p class="text-white font-weight-light">
+					You have a positive attitude and you like to explore the many different opportunities that student life has to offer. You always make sure that you have several things going on and are not afraid to take on a few extracurriculars. You like to dream big and are determined to be involved in as many things as possible. Your schedule might be packed, but at least you are never bored!
+
 					</p>
 				</div>
 			</div>
 				
 			<div class="col-lg-6 align-self-end">
 				<p class="text-white  font-weight-light">
-				The perfect match for you is the <a href="all.html#id1" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Academy Building</b> </mark></a>, that, together with the attached chapter house from the 15th century, is the beating heart of the university.
+				The perfect match for you is the <a href="all.html#id1" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Academy Building</b> </mark></a>, that, together with the attached chapter house from the 15th century, is the beating heart of the university. Throughout the coming years you will be seeing this building a lot, perhaps even to start the board year of (one of) the student association(s) you are part of! Soon enough you will know everyone who walks around here, and one day you aspire to defend your PhD thesis here and receive the praise that you deser
 				</p>
 			
 				<p class="text-white font-weight-light">
@@ -318,16 +320,20 @@ for(var i = 0; i < totalScore.length; ++i){
 				<hr class="divider my-4" />
 		 
 				<div class="summary align-self-baseline mb-4">
-					<p class="text-white font-weight-light">You like to refer to yourself as an "enjoyer of life" or a "bon vivant" if you're feeling fancy. When you entered your life as a student in Utrecht, you came to the discovery that you are happiest when you just see what the day brings you. There is always time to study later!
-					</p>
-					<p class="text-white font-weight-light">You like to spend time outside - either with friends or by yourself - and take in your surroundings. You would love a place where you could find shade during the hot days of summer, some sun in the spring and fall, and some cosy shelter in the winter. 
+					<p class="text-white font-weight-light">
+					You like to refer to yourself as an "enjoyer of life" or a "bon vivant" if you're feeling fancy. When you entered your life as a student in Utrecht, you came to the discovery that you are happiest when you just see what the day brings you. There is always time to study later!
+</p>
+<p class="text-white font-weight-light">
+You like to spend time outside - either with friends or by yourself - and take in your surroundings. You would love a place where you could find shade during the hot days of summer, some sun in the spring and fall, and some cosy shelter in the winter.
+
 					</p>
 				</div>
 			</div>
 				
 			<div class="col-lg-6 align-self-end">
 				<p class="text-white  font-weight-light">
-				Your match is the <a href="all.html#id2" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Pandhof</b> </mark></a>, that strikes the perfect balance between being secluded from the busy outside world and at having different people coming in and out all day, who you like to observe..
+				Your match is the <a href="all.html#id2" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Pandhof</b> </mark></a>f, the church garden, that strikes the perfect balance between being secluded from the busy outside world and having different people coming in and out all day, who you like to observe.
+
 				
 				</p>
 			
@@ -358,17 +364,21 @@ for(var i = 0; i < totalScore.length; ++i){
 				<hr class="divider my-4" />
 		 
 				<div class="summary align-self-baseline mb-4">
-					<p class="text-white font-weight-light">You like to build little moments into your day that allow you to reconnect and re-evaluate. Taking a step back from daily life every once in a while strengthens you and prepares you to take on all the things the universe throws at you.
+					<p class="text-white font-weight-light">
+					You like to build little moments into your day that allow you to reconnect and re-evaluate. Taking a step back from daily life every once in a while strengthens you and prepares you to take on all the things the universe throws at you.
+
 					</p>
 					<p class="text-white font-weight-light">
-					In the busy world that you live in, you find peace and comfort in places where people come together to share their faith. 
-					</p>
+					In the busy world that you live in, you find peace and comfort in places where people come together to share their faith.
+</p>
+
 				</div>
 			</div>
 				
 			<div class="col-lg-6 align-self-end">
 				<p class="text-white  font-weight-light">
-				Your perfect match is the <a href="all.html#id3" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Dom Church</b> </mark></a>, to unwind and connect with the past generations of people who have come here to recharge. 
+				Your perfect match is the <a href="all.html#id3" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Dom Church</b> </mark></a>, where you can unwind and connect with the past generations of people who have come here to recharge.
+
 				</p>
 			
 				<p class="text-white font-weight-light">
@@ -400,16 +410,19 @@ for(var i = 0; i < totalScore.length; ++i){
 				<div class="summary align-self-baseline mb-4">
 					<p class="text-white font-weight-light">
 					Your personal motto is "better safe than sorry!". The first thing you do when you get up is checking what the stars have to say. Does your horoscope not anticipate a great day today? Maybe you'll roll over once more and have a little you-time.
+
 					</p>
 					<p class="text-white font-weight-light">
 					You are also always the first to know the talk of the town, and are especially weary of potential misfortune. Despite what others might tell you, you are stubborn and stick to your ways. Because you will see, that ONE time you let yourself go, disaster will strike…
+
 					</p>
 				</div>
 			</div>
 				
 			<div class="col-lg-6 align-self-end">
 				<p class="text-white  font-weight-light">
-				Your perfect match is the <a href="all.html#id4" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Dom gate</b> </mark></a>: legend has it that once a person committed suicide by jumping from the top of the tower, but unfortunately landed on a student coming out from under the gate. 
+				Your not-so-perfect match is the <a href="all.html#id4" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Dom gate</b> </mark></a>: student legend has it that once a person committed suicide by jumping from the top of the tower, but unfortunately landed on a poor student coming out from under the gate, killing them instantly. Now, whenever you cross the Dom Square you make sure to never EVER walk under the Dom gate….
+
 				</p>
 			
 				<p class="text-white font-weight-light">
@@ -441,16 +454,15 @@ for(var i = 0; i < totalScore.length; ++i){
 				<div class="summary align-self-baseline mb-4">
 					<p class="text-white font-weight-light">
 					As a young intellectual, you see it as your duty to improve the world and fight for those without a voice. You don't like it when people tell you what to do and what not to do, or that you are "too liberal". You can make up your own mind! You are persuasive and charismatic, and determined to devote all your energy to your cause.
-					</p>
-					<p class="text-white font-weight-light">
-					You may feel personally inspired by the story of the first female university student in the Netherlands, Anna Maria van Schurman (1607-1678) and you may strive to follow in her footsteps.
+
 					</p>
 				</div>
 			</div>
 				
 			<div class="col-lg-6 align-self-end">
 				<p class="text-white  font-weight-light">
-				Therefore, your perfect match is the <a href="all.html#id5" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>old house of Anna Maria van Schurman</b> </mark></a>(1607-1678), the student who, by participating in the intellectual community of the seventeenth century, paved the way for many women and members of other oppressed groups to do the same. 
+				Therefore, your perfect match is the <a href="all.html#id5" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>old house of Anna Maria van Schurman</b> </mark></a>(1607-1678)(Achter de Dom 6-10), the first female student in the Netherlands, who paved the way for many members of oppressed groups such as women, by participating in the intellectual community of the seventeenth century. You feel personally inspired by Anna Maria's story and you strive to follow in her footsteps.
+
 				</p>
 			
 				<p class="text-white font-weight-light">
@@ -482,16 +494,20 @@ for(var i = 0; i < totalScore.length; ++i){
 				<div class="summary align-self-baseline mb-4">
 					<p class="text-white font-weight-light">
 					You are a true party animal! You enjoy being part of a student association and you never say no to a drink with your friends. Your academics are usually not your main priority, especially in the morning, after you had that 'only one beer' a couple too many times the night before.
+
 					</p>
 					<p class="text-white font-weight-light">
-					You can mainly be found in the city centre around the end of the day - otherwise known as "borreltime"! When you visit Dom Square during your nocturnal adventures, you and your friends like to bring homage to the place where the social life of the Utrechtsche Studenten Corps ("Utrecht Student Corpus") started, all the way back in 1816.
+					You can mainly be found in the city centre towards the end of the day - otherwise known as "borreltime"! When you visit Dom Square during your nocturnal adventures, you and your friends like to bring homage to the place where the social life of students on Dom Square started, all the way back in 1816.
+
 					</p>
 				</div>
 			</div>
 				
 			<div class="col-lg-6 align-self-end">
 				<p class="text-white  font-weight-light">
-				Therefore, your perfect match is the <a href="all.html#id6" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>"Utrecht Student Corpus" building</b> </mark></a>(1607-1678); even though the current USC consists mostly of party animals like yourself, you also like to remember that it started out as an association for all students all the way back in 1636.
+				This is the first location of the <a href="all.html#id6" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;">"Utrechtsche Studenten Corps"</b> </mark></a> (the "Utrecht Student Corpus"), which is your perfect match. While visiting this tiny building next to the Dom Tower, the energy of all those students that had their parties here in the past can still be felt…or was that really one beer too many??
+
+
 				</p>
 			
 				<p class="text-white font-weight-light">
@@ -522,11 +538,12 @@ for(var i = 0; i < totalScore.length; ++i){
 		 
 				<div class="summary align-self-baseline mb-4">
 					<p class="text-white font-weight-light">
-					You are well aware of what humanity is doing to our planet and its ecosystems, and you realise the time to take action is now. You love to take part in the many student initiatives that promote sustainable living and consumption, and you spend a lot of time and energy to educate the people around you. Even though it is hard work that you do, the juice is worth the squeeze: your efforts help to bring people together and build a community that works towards a better future.
+					You are well aware of what humanity is doing to our planet and its ecosystems, and you realise the time to take action is now. You love to take part in the many student initiatives that promote sustainable living and consumption, and you spend a lot of time and energy to educate the people around you.
 					</p>
 					
 					<p class="text-white font-weight-light">
-					 You feel like you contribute to a sustainable environment, and you hope to inspire others to do so as well.
+					 Even though it is hard work that you do, the juice is worth the squeeze: your efforts help to bring people together and build a community that works towards a better future. You feel like you contribute to a sustainable environment, and you hope to inspire others to do so as well.
+
 					</p>
 
 				</div>
@@ -534,7 +551,8 @@ for(var i = 0; i < totalScore.length; ++i){
 				
 			<div class="col-lg-6 align-self-end">
 				<p class="text-white  font-weight-light">
-				Your perfect match is <a href="all.html#id7" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Circle That</b> </mark></a>a student-led collective that facilitates food rescue markets, second-hand clothing sales, sustainable living workshops and much more.
+				Your perfect match is <a href="all.html#id7" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Circle That</b> </mark></a>: a student-led collective that facilitates food rescue markets, second-hand clothing sales, sustainable living workshops and much more.
+
 				</p>
 			
 				<p class="text-white font-weight-light">
@@ -566,10 +584,12 @@ for(var i = 0; i < totalScore.length; ++i){
 				<div class="summary align-self-baseline mb-4">
 					<p class="text-white font-weight-light">
 					For now, you are a bit of a mess, and you are well aware of it. New to this foreign city and student life, you usually don't immediately succeed in what you plan to do. You have yet to learn your way around town, as well as how to structure your new life as a student in Utrecht.
+
 					</p>
 					
 					<p class="text-white font-weight-light">
-					 Luckily there is always the Dom Tower, for centuries the symbol and epicentre of the city, to look up to from a distance. Not only does its everlasting presence on the Utrecht skyline comfort you, it also helps you navigate through those tiny little streets in the city centre that all look exactly the same to you.
+					 Luckily there is always this one very high building, for centuries the symbol and epicentre of the city, to look up to from a distance. Not only does its everlasting presence on the Utrecht skyline comfort you, it also helps you navigate through those tiny little streets in the city centre that all look exactly the same to you.
+
 					</p>
 
 				</div>
@@ -577,7 +597,7 @@ for(var i = 0; i < totalScore.length; ++i){
 				
 			<div class="col-lg-6 align-self-end">
 				<p class="text-white  font-weight-light">
-				Your perfect match is the one and only <a href="all.html#id8" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Dom Tower</b> </mark></a>, that, in your mind and in those of many other Utrechters, is the focal point of the city, and once the highest building in the Netherlands.
+				Your perfect match is the one and only <a href="all.html#id8" style="text-decoration:underline;"><mark style="background-color: #f4623a; color: white;"> <b>Dom Tower</b> </mark></a>r, that, in your mind and in those of many other Utrechters, is the focal point of the city, and once the highest building in the Netherlands.
 				</p>
 			
 				<p class="text-white font-weight-light">
