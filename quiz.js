@@ -75,7 +75,7 @@ const questions = [
     "answer1Total": "B",
     "answer2": "Not being able to oversee my responsibilities.",
     "answer2Total": "H",
-    "answer3": "Taking too long to do things because I have to do it in a specific way.",
+    "answer3": "Being too gullible and believing anything others say.",
     "answer3Total": "D",
 	"answer4": "Trying to do too much at the same time.",
 	"answer4Total": "A"
@@ -117,7 +117,7 @@ const questions = [
     "question": "If you could choose a superpower, <br>what would it be?",
     "answer1": "Being able to regulate the earth's temperature.",
     "answer1Total": "G",
-    "answer2": "Having the ability to answer a question about the meaning of life.",
+    "answer2": "Always knowing exactly where everything and everyone is.",
     "answer2Total": "C",
     "answer3": "Being able to control the emotions of the people around me and calm them down.",
     "answer3Total": "B",
