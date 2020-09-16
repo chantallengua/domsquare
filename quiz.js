@@ -5,7 +5,7 @@ const questions = [
     "question": "What do you do after class?",
     "answer1": "Chill at home or outside and recover from the lecture.",
     "answer1Total": "B",
-    "answer2": "Study all the new things I just learned.",
+    "answer2": "Revise all the new things I just learned.",
     "answer2Total": "A",
     "answer3": "Rush off to a 'borrel' and worry about my next class when the time comes.",
     "answer3Total": "F",
@@ -37,7 +37,7 @@ const questions = [
 
     {
     "question": "Which famous person would you like to <br> be able to talk to for a day?",
-    "answer1": "Albert Einstein, one of the most influential scientists of the 20th.",
+    "answer1": "Albert Einstein, one of the most influential scientists of the 20th century.",
     "answer1Total": "A",
     "answer2": "Anna Maria van Schurman, the first female student at UU.",
     "answer2Total": "E",
